@@ -1,0 +1,5 @@
+F:\GitHub\CSharp\BasicDemo\StaticDemo\bin\Debug\StaticDemo.exe
+F:\GitHub\CSharp\BasicDemo\StaticDemo\bin\Debug\StaticDemo.pdb
+F:\GitHub\CSharp\BasicDemo\StaticDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\GitHub\CSharp\BasicDemo\StaticDemo\obj\x86\Debug\StaticDemo.exe
+F:\GitHub\CSharp\BasicDemo\StaticDemo\obj\x86\Debug\StaticDemo.pdb
