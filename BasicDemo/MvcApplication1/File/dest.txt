@@ -1,0 +1,10 @@
+上海	http://www.testshanghai.com
+北京	http://www.baidutest.com
+湖南	http://www.hunantest.com
+湖北	http://www.hubeitest.com
+天津	http://www.tianjin.com
+成都	http://www.chengdutest.com
+武汉	http://www.wuhantest.com
+江西	http://www.jiangxitest.com
+杭州	http://www.hangzhoutest.com
+江苏	http://www.jiangsutest.com

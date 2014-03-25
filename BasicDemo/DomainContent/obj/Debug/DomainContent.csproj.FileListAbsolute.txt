@@ -1,0 +1,5 @@
+F:\GitHub\CSharp\BasicDemo\DomainContent\bin\Debug\DomainContent.dll
+F:\GitHub\CSharp\BasicDemo\DomainContent\bin\Debug\DomainContent.pdb
+F:\GitHub\CSharp\BasicDemo\DomainContent\obj\Debug\ResolveAssemblyReference.cache
+F:\GitHub\CSharp\BasicDemo\DomainContent\obj\Debug\DomainContent.dll
+F:\GitHub\CSharp\BasicDemo\DomainContent\obj\Debug\DomainContent.pdb

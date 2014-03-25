@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Execl";
+}
+@model List<DomainContent.Destinat>
+<h2>Execl</h2>
+<h3>这是我从Execl中读取的数据哦</h3>
+<table width="600px">
+    <tr><td>名称</td><td>链接</td></tr>
+    @{
+        foreach (var dest in Model)
+        {
+           <tr><td>@dest.Name</td><td>@dest.Url</td></tr>
+        }
+    }
+</table>

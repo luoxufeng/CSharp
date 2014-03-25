@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "ReadXml";
+}
+@model List<DomainContent.Destinat>
+<h2>ReadXml</h2>
+<h3>这三从xml中读取的数据</h3>
+<table width="600px">
+    <tr><td>名称</td><td>URL</td></tr>
+    @{
+        foreach (var destinat in Model)
+        {
+            <tr><td>@destinat.Name</td><td><a href="@destinat.Url">@destinat.Url</a></td></tr>
+        }
+    }
+</table>

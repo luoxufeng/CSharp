@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDestinat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Destinat>
+        <Name>湖南</Name>
+        <Url>http://www.hunantest.com</Url>
+    </Destinat>
+    <Destinat>
+        <Name>湖北</Name>
+        <Url>http://www.hubeitest.com</Url>
+    </Destinat>
+    <Destinat>
+        <Name>江西</Name>
+        <Url>http://www.jiangxitest.com</Url>
+    </Destinat>
+    <Destinat>
+        <Name>成都</Name>
+        <Url>http://www.chengdutest.com</Url>
+    </Destinat>
+    <Destinat>
+        <Name>武汉</Name>
+        <Url>http://www.wuhantest.com</Url>
+    </Destinat>
+</ArrayOfDestinat>

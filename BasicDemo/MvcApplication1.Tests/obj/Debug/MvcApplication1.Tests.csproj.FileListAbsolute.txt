@@ -1,0 +1,10 @@
+F:\GitHub\CSharp\BasicDemo\MvcApplication1.Tests\bin\Debug\MvcApplication1.Tests.dll.config
+F:\GitHub\CSharp\BasicDemo\MvcApplication1.Tests\bin\Debug\MvcApplication1.Tests.dll
+F:\GitHub\CSharp\BasicDemo\MvcApplication1.Tests\bin\Debug\MvcApplication1.Tests.pdb
+F:\GitHub\CSharp\BasicDemo\MvcApplication1.Tests\bin\Debug\MvcApplication1.dll
+F:\GitHub\CSharp\BasicDemo\MvcApplication1.Tests\bin\Debug\MvcApplication1.pdb
+F:\GitHub\CSharp\BasicDemo\MvcApplication1.Tests\obj\Debug\ResolveAssemblyReference.cache
+F:\GitHub\CSharp\BasicDemo\MvcApplication1.Tests\obj\Debug\MvcApplication1.Tests.dll
+F:\GitHub\CSharp\BasicDemo\MvcApplication1.Tests\obj\Debug\MvcApplication1.Tests.pdb
+F:\GitHub\CSharp\BasicDemo\MvcApplication1.Tests\bin\Debug\DomainContent.dll
+F:\GitHub\CSharp\BasicDemo\MvcApplication1.Tests\bin\Debug\DomainContent.pdb

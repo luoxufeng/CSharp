@@ -1,0 +1,9 @@
+F:\GitHub\CSharp\BasicDemo\MvcApplication1\bin\MvcApplication1.dll
+F:\GitHub\CSharp\BasicDemo\MvcApplication1\bin\MvcApplication1.pdb
+F:\GitHub\CSharp\BasicDemo\MvcApplication1\bin\EntityFramework.dll
+F:\GitHub\CSharp\BasicDemo\MvcApplication1\bin\EntityFramework.xml
+F:\GitHub\CSharp\BasicDemo\MvcApplication1\obj\Debug\ResolveAssemblyReference.cache
+F:\GitHub\CSharp\BasicDemo\MvcApplication1\obj\Debug\MvcApplication1.dll
+F:\GitHub\CSharp\BasicDemo\MvcApplication1\obj\Debug\MvcApplication1.pdb
+F:\GitHub\CSharp\BasicDemo\MvcApplication1\bin\DomainContent.dll
+F:\GitHub\CSharp\BasicDemo\MvcApplication1\bin\DomainContent.pdb
