@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Search";
+}
+
+<h2>Search</h2>
+@using (Html.BeginForm("Search", "Simple", FormMethod.Get))
+{
+    <input type="text" name="keyWords"/>
+    <input type="submit" value="Search"/>
+}
+<h3>@ViewBag.KeyWords</h3>

@@ -1,0 +1,7 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@*@Html.ActionLink("分页测试", "PageList", "Page", new { pagenow = @ViewBag.currentIndex, pagesize = @ViewBag.pageSize }, null)*@
+  @{Html.RenderAction("PageList", "Page", new { pagenow = @ViewBag.currentIndex, pagesize = @ViewBag.pageSize });}

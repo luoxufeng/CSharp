@@ -8,9 +8,13 @@ namespace MvcApplication1.Controllers
 {
     public class SimpleController : Controller
     {
+        #region C#基础泛型
         //
         // GET: /Simple/
-
+        /// <summary>
+        /// 泛型结构的调用
+        /// </summary>
+        /// <returns></returns>
         public ActionResult ListStruct()
         {
             var intData = new PieceOfData<int>(5);
@@ -20,6 +24,10 @@ namespace MvcApplication1.Controllers
             return View();
         }
 
+        /// <summary>
+        /// 泛型接口的调用
+        /// </summary>
+        /// <returns></returns>
         public ActionResult ListIntface()
         {
             var sInt=new Simple<int>();
@@ -29,6 +37,28 @@ namespace MvcApplication1.Controllers
             var strData = str.ReturnIt("I'm Alice");
             ViewBag.Content = string.Format("intData={0},strData={1}", intData, strData);
             return View();
+        }
+        #endregion
+
+        #region html 
+        /// <summary>
+        /// form 表单get提交
+        /// </summary>
+        /// <param name="keyWords">此参数名称必须和form表单中提交数据的名称一致</param>
+        /// <returns></returns>
+        public ActionResult Search(string keyWords)
+        {
+            ViewBag.KeyWords = keyWords;
+            return View();
+        }
+        #endregion
+
+         
+        [OutputCache(Duration = 300, VaryByParam = "districtId")]
+        public ActionResult IsCache(long districtId = 0)
+        {
+            ViewBag.Number = districtId;
+            return PartialView();
         }
 
     }

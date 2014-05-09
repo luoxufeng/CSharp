@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "PageList";
+}
+@model MvcApplication1.Models.TravelListViewModel
+<h2>这是所有的攻略集合哦</h2>
+<table width="600px">
+    <tr>
+        <td>名称</td>
+        <td>数量</td>
+        <td>更新时间</td>
+    </tr>
+    @{
+        foreach (var guide in Model.GuidBookList)
+        {
+            <tr>
+                <td><a href="@guide.Url">@guide.Name</a></td>
+                <td>@guide.DownLoadCount</td>
+                <td>@guide.UpdateTime</td>
+            </tr>
+        }
+    }
+</table>
+@Model.NavigationBar.RenderNavigationHtml();
+

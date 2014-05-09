@@ -62,14 +62,23 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business\TravelListBusiness.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PageController.cs" />
     <Compile Include="Controllers\ReadFileController.cs" />
     <Compile Include="Controllers\SimpleController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\BaseNavigationViewModel.cs" />
+    <Compile Include="Models\common\StringExtension.cs" />
+    <Compile Include="Models\GuideBook.cs" />
+    <Compile Include="Models\HtmlStringExtensions.cs" />
+    <Compile Include="Models\NavigationViewModel.cs" />
+    <Compile Include="Models\TagBuilderHelper.cs" />
+    <Compile Include="Models\TravelListViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +165,10 @@
     <Content Include="Views\ReadFile\ReadXml.cshtml" />
     <Content Include="Views\Simple\ListStruct.cshtml" />
     <Content Include="Views\Simple\ListIntface.cshtml" />
+    <Content Include="Views\Simple\Search.cshtml" />
+    <Content Include="Views\Simple\IsCache.cshtml" />
+    <Content Include="Views\Page\PageList.cshtml" />
+    <Content Include="Views\Page\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DomainContent\DomainContent.csproj">

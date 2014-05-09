@@ -21,6 +21,11 @@
                     <li>@Html.ActionLink("read to execl", "Execl", "ReadFile")</li>
                     <li>@Html.ActionLink("write a xml file", "GetXml", "ReadFile")</li>
                     <li>@Html.ActionLink("read a xml file","ReadXml","ReadFile")</li>
+                    <li>@{ Html.ActionLink("测试缓存","IsCache", "Simple");}</li>
+                    <li>@Html.ActionLink("测试缓存1", "IsCache","Simple", new { districtId = 1 },null)</li>
+                    <li>@Html.ActionLink("测试缓存2", "IsCache","Simple", new { districtId = 2 },null)</li>
+                    <li>@Html.ActionLink("分页测试", "Index","Page")</li>
+
                 </ul>
             </div>
         </div>
